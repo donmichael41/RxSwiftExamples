@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CDB08911DF7DF01005B18CF /* ColourfullBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB08901DF7DF01005B18CF /* ColourfullBallTests.swift */; };
 		0CE06F391DF6CC1700B8864D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE06F381DF6CC1700B8864D /* AppDelegate.swift */; };
 		0CE06F3B1DF6CC1700B8864D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE06F3A1DF6CC1700B8864D /* ViewController.swift */; };
 		0CE06F3E1DF6CC1700B8864D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE06F3C1DF6CC1700B8864D /* Main.storyboard */; };
 		0CE06F401DF6CC1700B8864D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CE06F3F1DF6CC1700B8864D /* Assets.xcassets */; };
 		0CE06F431DF6CC1700B8864D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE06F411DF6CC1700B8864D /* LaunchScreen.storyboard */; };
+		0CE06F4B1DF6D5EB00B8864D /* CircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE06F4A1DF6D5EB00B8864D /* CircleViewModel.swift */; };
+		FCFB18126291D73424AE17E7 /* Pods_ColourfullBall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2E06AAE33920BCDE724E6B /* Pods_ColourfullBall.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0CDB08931DF7DF01005B18CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CE06F2D1DF6CC1700B8864D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CE06F341DF6CC1700B8864D;
+			remoteInfo = ColourfullBall;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0CDB088E1DF7DF01005B18CF /* ColourfullBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColourfullBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CDB08901DF7DF01005B18CF /* ColourfullBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourfullBallTests.swift; sourceTree = "<group>"; };
+		0CDB08921DF7DF01005B18CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CE06F351DF6CC1700B8864D /* ColourfullBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColourfullBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE06F381DF6CC1700B8864D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CE06F3A1DF6CC1700B8864D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,24 +38,56 @@
 		0CE06F3F1DF6CC1700B8864D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CE06F421DF6CC1700B8864D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CE06F441DF6CC1700B8864D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CE06F4A1DF6D5EB00B8864D /* CircleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewModel.swift; sourceTree = "<group>"; };
+		221DA6196827A0E363A42172 /* Pods-ColourfullBall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColourfullBall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColourfullBall/Pods-ColourfullBall.debug.xcconfig"; sourceTree = "<group>"; };
+		BC2E06AAE33920BCDE724E6B /* Pods_ColourfullBall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColourfullBall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7792E619E279CC2F7A654C /* Pods-ColourfullBall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColourfullBall.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColourfullBall/Pods-ColourfullBall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0CE06F321DF6CC1700B8864D /* Frameworks */ = {
+		0CDB088B1DF7DF01005B18CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0CE06F321DF6CC1700B8864D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFB18126291D73424AE17E7 /* Pods_ColourfullBall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06FC79BE7E0E8CC2B0F1FE45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E06AAE33920BCDE724E6B /* Pods_ColourfullBall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CDB088F1DF7DF01005B18CF /* ColourfullBallTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CDB08901DF7DF01005B18CF /* ColourfullBallTests.swift */,
+				0CDB08921DF7DF01005B18CF /* Info.plist */,
+			);
+			path = ColourfullBallTests;
+			sourceTree = "<group>";
+		};
 		0CE06F2C1DF6CC1700B8864D = {
 			isa = PBXGroup;
 			children = (
 				0CE06F371DF6CC1700B8864D /* ColourfullBall */,
+				0CDB088F1DF7DF01005B18CF /* ColourfullBallTests */,
 				0CE06F361DF6CC1700B8864D /* Products */,
+				887D0CD36B279B3CC14DBD67 /* Pods */,
+				06FC79BE7E0E8CC2B0F1FE45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				0CE06F351DF6CC1700B8864D /* ColourfullBall.app */,
+				0CDB088E1DF7DF01005B18CF /* ColourfullBallTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +105,7 @@
 			children = (
 				0CE06F381DF6CC1700B8864D /* AppDelegate.swift */,
 				0CE06F3A1DF6CC1700B8864D /* ViewController.swift */,
+				0CE06F4A1DF6D5EB00B8864D /* CircleViewModel.swift */,
 				0CE06F3C1DF6CC1700B8864D /* Main.storyboard */,
 				0CE06F3F1DF6CC1700B8864D /* Assets.xcassets */,
 				0CE06F411DF6CC1700B8864D /* LaunchScreen.storyboard */,
@@ -64,16 +114,46 @@
 			path = ColourfullBall;
 			sourceTree = "<group>";
 		};
+		887D0CD36B279B3CC14DBD67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				221DA6196827A0E363A42172 /* Pods-ColourfullBall.debug.xcconfig */,
+				CD7792E619E279CC2F7A654C /* Pods-ColourfullBall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0CDB088D1DF7DF01005B18CF /* ColourfullBallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CDB08971DF7DF01005B18CF /* Build configuration list for PBXNativeTarget "ColourfullBallTests" */;
+			buildPhases = (
+				0CDB088A1DF7DF01005B18CF /* Sources */,
+				0CDB088B1DF7DF01005B18CF /* Frameworks */,
+				0CDB088C1DF7DF01005B18CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CDB08941DF7DF01005B18CF /* PBXTargetDependency */,
+			);
+			name = ColourfullBallTests;
+			productName = ColourfullBallTests;
+			productReference = 0CDB088E1DF7DF01005B18CF /* ColourfullBallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0CE06F341DF6CC1700B8864D /* ColourfullBall */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CE06F471DF6CC1700B8864D /* Build configuration list for PBXNativeTarget "ColourfullBall" */;
 			buildPhases = (
+				504168E1FF20521FFB7EB82B /* [CP] Check Pods Manifest.lock */,
 				0CE06F311DF6CC1700B8864D /* Sources */,
 				0CE06F321DF6CC1700B8864D /* Frameworks */,
 				0CE06F331DF6CC1700B8864D /* Resources */,
+				AAC8DB86BEBB3BD6C14827EF /* [CP] Embed Pods Frameworks */,
+				81E95DE3F40F602C208F0000 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -94,6 +174,12 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Hung Nguyen";
 				TargetAttributes = {
+					0CDB088D1DF7DF01005B18CF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P75L6RL67A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0CE06F341DF6CC1700B8864D;
+					};
 					0CE06F341DF6CC1700B8864D = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = P75L6RL67A;
@@ -115,11 +201,19 @@
 			projectRoot = "";
 			targets = (
 				0CE06F341DF6CC1700B8864D /* ColourfullBall */,
+				0CDB088D1DF7DF01005B18CF /* ColourfullBallTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0CDB088C1DF7DF01005B18CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CE06F331DF6CC1700B8864D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,17 +226,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		504168E1FF20521FFB7EB82B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81E95DE3F40F602C208F0000 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColourfullBall/Pods-ColourfullBall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC8DB86BEBB3BD6C14827EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColourfullBall/Pods-ColourfullBall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		0CDB088A1DF7DF01005B18CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDB08911DF7DF01005B18CF /* ColourfullBallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CE06F311DF6CC1700B8864D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE06F4B1DF6D5EB00B8864D /* CircleViewModel.swift in Sources */,
 				0CE06F3B1DF6CC1700B8864D /* ViewController.swift in Sources */,
 				0CE06F391DF6CC1700B8864D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CDB08941DF7DF01005B18CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CE06F341DF6CC1700B8864D /* ColourfullBall */;
+			targetProxy = 0CDB08931DF7DF01005B18CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0CE06F3C1DF6CC1700B8864D /* Main.storyboard */ = {
@@ -164,6 +323,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0CDB08951DF7DF01005B18CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P75L6RL67A;
+				INFOPLIST_FILE = ColourfullBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dinosys.ColourfullBallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColourfullBall.app/ColourfullBall";
+			};
+			name = Debug;
+		};
+		0CDB08961DF7DF01005B18CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P75L6RL67A;
+				INFOPLIST_FILE = ColourfullBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dinosys.ColourfullBallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColourfullBall.app/ColourfullBall";
+			};
+			name = Release;
+		};
 		0CE06F451DF6CC1700B8864D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -259,6 +446,7 @@
 		};
 		0CE06F481DF6CC1700B8864D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221DA6196827A0E363A42172 /* Pods-ColourfullBall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P75L6RL67A;
@@ -272,6 +460,7 @@
 		};
 		0CE06F491DF6CC1700B8864D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7792E619E279CC2F7A654C /* Pods-ColourfullBall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P75L6RL67A;
@@ -286,6 +475,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0CDB08971DF7DF01005B18CF /* Build configuration list for PBXNativeTarget "ColourfullBallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CDB08951DF7DF01005B18CF /* Debug */,
+				0CDB08961DF7DF01005B18CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0CE06F301DF6CC1700B8864D /* Build configuration list for PBXProject "ColourfullBall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -302,6 +499,7 @@
 				0CE06F491DF6CC1700B8864D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

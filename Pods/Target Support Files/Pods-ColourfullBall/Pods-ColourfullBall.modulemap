@@ -1,0 +1,6 @@
+framework module Pods_ColourfullBall {
+  umbrella header "Pods-ColourfullBall-umbrella.h"
+
+  export *
+  module * { export * }
+}
